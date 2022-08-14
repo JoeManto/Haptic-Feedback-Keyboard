@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7010273C221112D600907905 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7010273B221112D600907905 /* ThemesViewController.swift */; };
+		7010273E2211142400907905 /* OptionsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7010273D2211142400907905 /* OptionsMenuViewController.swift */; };
+		701CD84522A1E0AD002CEDD4 /* AutoCorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701CD84422A1E0AD002CEDD4 /* AutoCorrect.swift */; };
+		7036F61C238B6F090050D983 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7036F61B238B6F090050D983 /* CoreHaptics.framework */; };
+		703ABEDC21F043B20039AF52 /* WordSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703ABEDB21F043B20039AF52 /* WordSuggestions.swift */; };
+		706336DE21E0346C0090798F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706336DD21E0346C0090798F /* AppDelegate.swift */; };
+		706336E021E0346C0090798F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706336DF21E0346C0090798F /* ViewController.swift */; };
+		706336E321E0346C0090798F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706336E121E0346C0090798F /* Main.storyboard */; };
+		706336E521E0346E0090798F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706336E421E0346E0090798F /* Assets.xcassets */; };
+		706336E821E0346E0090798F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706336E621E0346E0090798F /* LaunchScreen.storyboard */; };
+		706336F321E0346E0090798F /* HapticFeedBackKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706336F221E0346E0090798F /* HapticFeedBackKeyboardTests.swift */; };
+		706336FE21E0346E0090798F /* HapticFeedBackKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706336FD21E0346E0090798F /* HapticFeedBackKeyboardUITests.swift */; };
+		7063371221E034950090798F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063371121E034950090798F /* KeyboardViewController.swift */; };
+		7063371621E034950090798F /* Haptic.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7063370F21E034950090798F /* Haptic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7063371C21E034E00090798F /* FallingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063371B21E034E00090798F /* FallingObject.swift */; };
+		7063371D21E0356E0090798F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706336E421E0346E0090798F /* Assets.xcassets */; };
+		7063371F21E035A60090798F /* KeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063371E21E035A60090798F /* KeyBoard.swift */; };
+		7063372121E035C60090798F /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063372021E035C60090798F /* KeyButton.swift */; };
+		7063372321E035E50090798F /* GloabalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063372221E035E50090798F /* GloabalColors.swift */; };
+		7063372521E0360F0090798F /* popUpKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063372421E0360F0090798F /* popUpKeyView.swift */; };
+		7063372721E045080090798F /* HapticSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063372621E045080090798F /* HapticSettingsViewController.swift */; };
+		709853E4222B4E760086D311 /* TypingStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709853E3222B4E760086D311 /* TypingStats.swift */; };
+		70B30AEA21F9262F00C15226 /* bigData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 70B30AE821F6C46D00C15226 /* bigData.txt */; };
+		70F9D72C222DA74900BCCE77 /* ControlCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F9D72B222DA74900BCCE77 /* ControlCenterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		706336EF21E0346E0090798F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706336D221E0346C0090798F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706336D921E0346C0090798F;
+			remoteInfo = HapticFeedBackKeyboard;
+		};
+		706336FA21E0346E0090798F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706336D221E0346C0090798F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706336D921E0346C0090798F;
+			remoteInfo = HapticFeedBackKeyboard;
+		};
+		7063371421E034950090798F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706336D221E0346C0090798F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7063370E21E034950090798F;
+			remoteInfo = Haptic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7063371A21E034950090798F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7063371621E034950090798F /* Haptic.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7010273B221112D600907905 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		7010273D2211142400907905 /* OptionsMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMenuViewController.swift; sourceTree = "<group>"; };
+		701CD84422A1E0AD002CEDD4 /* AutoCorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCorrect.swift; sourceTree = "<group>"; };
+		7036F61B238B6F090050D983 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = DEVELOPER_DIR; };
+		7036F66E238B75720050D983 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7036F670238B75720050D983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703ABEDB21F043B20039AF52 /* WordSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSuggestions.swift; sourceTree = "<group>"; };
+		706336DA21E0346C0090798F /* HapticFeedBackKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticFeedBackKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706336DD21E0346C0090798F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		706336DF21E0346C0090798F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706336E221E0346C0090798F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706336E421E0346E0090798F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706336E721E0346E0090798F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706336E921E0346E0090798F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706336EE21E0346E0090798F /* HapticFeedBackKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticFeedBackKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706336F221E0346E0090798F /* HapticFeedBackKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedBackKeyboardTests.swift; sourceTree = "<group>"; };
+		706336F421E0346E0090798F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706336F921E0346E0090798F /* HapticFeedBackKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticFeedBackKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706336FD21E0346E0090798F /* HapticFeedBackKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedBackKeyboardUITests.swift; sourceTree = "<group>"; };
+		706336FF21E0346E0090798F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7063370F21E034950090798F /* Haptic.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Haptic.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7063371121E034950090798F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7063371321E034950090798F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7063371B21E034E00090798F /* FallingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingObject.swift; sourceTree = "<group>"; };
+		7063371E21E035A60090798F /* KeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoard.swift; sourceTree = "<group>"; };
+		7063372021E035C60090798F /* KeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		7063372221E035E50090798F /* GloabalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloabalColors.swift; sourceTree = "<group>"; };
+		7063372421E0360F0090798F /* popUpKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpKeyView.swift; sourceTree = "<group>"; };
+		7063372621E045080090798F /* HapticSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticSettingsViewController.swift; sourceTree = "<group>"; };
+		7063372921E057B00090798F /* Haptic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Haptic.entitlements; sourceTree = "<group>"; };
+		7063372A21E058060090798F /* HapticFeedBackKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HapticFeedBackKeyboard.entitlements; sourceTree = "<group>"; };
+		709853E3222B4E760086D311 /* TypingStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingStats.swift; sourceTree = "<group>"; };
+		70B30AE821F6C46D00C15226 /* bigData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bigData.txt; sourceTree = "<group>"; };
+		70F9D72B222DA74900BCCE77 /* ControlCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706336D721E0346C0090798F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336EB21E0346E0090798F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7036F61C238B6F090050D983 /* CoreHaptics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336F621E0346E0090798F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7063370C21E034950090798F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7036F61A238B6F090050D983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7036F61B238B6F090050D983 /* CoreHaptics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7036F66D238B75720050D983 /* HapticExt */ = {
+			isa = PBXGroup;
+			children = (
+				7036F66E238B75720050D983 /* KeyboardViewController.swift */,
+				7036F670238B75720050D983 /* Info.plist */,
+			);
+			path = HapticExt;
+			sourceTree = "<group>";
+		};
+		706336D121E0346C0090798F = {
+			isa = PBXGroup;
+			children = (
+				706336DC21E0346C0090798F /* HapticFeedBackKeyboard */,
+				706336F121E0346E0090798F /* HapticFeedBackKeyboardTests */,
+				706336FC21E0346E0090798F /* HapticFeedBackKeyboardUITests */,
+				7063371021E034950090798F /* Haptic */,
+				7036F66D238B75720050D983 /* HapticExt */,
+				706336DB21E0346C0090798F /* Products */,
+				7036F61A238B6F090050D983 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		706336DB21E0346C0090798F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706336DA21E0346C0090798F /* HapticFeedBackKeyboard.app */,
+				706336EE21E0346E0090798F /* HapticFeedBackKeyboardTests.xctest */,
+				706336F921E0346E0090798F /* HapticFeedBackKeyboardUITests.xctest */,
+				7063370F21E034950090798F /* Haptic.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706336DC21E0346C0090798F /* HapticFeedBackKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				70B659772241896E009E0533 /* controllers */,
+				706336DD21E0346C0090798F /* AppDelegate.swift */,
+				706336E421E0346E0090798F /* Assets.xcassets */,
+				70B30AE821F6C46D00C15226 /* bigData.txt */,
+				7063372A21E058060090798F /* HapticFeedBackKeyboard.entitlements */,
+				70B6597822418990009E0533 /* other */,
+			);
+			path = HapticFeedBackKeyboard;
+			sourceTree = "<group>";
+		};
+		706336F121E0346E0090798F /* HapticFeedBackKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				706336F221E0346E0090798F /* HapticFeedBackKeyboardTests.swift */,
+				706336F421E0346E0090798F /* Info.plist */,
+			);
+			path = HapticFeedBackKeyboardTests;
+			sourceTree = "<group>";
+		};
+		706336FC21E0346E0090798F /* HapticFeedBackKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				706336FD21E0346E0090798F /* HapticFeedBackKeyboardUITests.swift */,
+				706336FF21E0346E0090798F /* Info.plist */,
+			);
+			path = HapticFeedBackKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		7063371021E034950090798F /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				70B6597522418912009E0533 /* view */,
+				70B65974224188F7009E0533 /* util */,
+				70B6597622418928009E0533 /* controllers */,
+				7063371E21E035A60090798F /* KeyBoard.swift */,
+				703ABEDB21F043B20039AF52 /* WordSuggestions.swift */,
+				7063371321E034950090798F /* Info.plist */,
+				7063372921E057B00090798F /* Haptic.entitlements */,
+			);
+			path = Haptic;
+			sourceTree = "<group>";
+		};
+		70B65974224188F7009E0533 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				709853E3222B4E760086D311 /* TypingStats.swift */,
+				7063372221E035E50090798F /* GloabalColors.swift */,
+				701CD84422A1E0AD002CEDD4 /* AutoCorrect.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		70B6597522418912009E0533 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7063372021E035C60090798F /* KeyButton.swift */,
+				7063372421E0360F0090798F /* popUpKeyView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		70B6597622418928009E0533 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7063371121E034950090798F /* KeyboardViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		70B659772241896E009E0533 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				706336DF21E0346C0090798F /* ViewController.swift */,
+				7010273B221112D600907905 /* ThemesViewController.swift */,
+				70F9D72B222DA74900BCCE77 /* ControlCenterViewController.swift */,
+				7010273D2211142400907905 /* OptionsMenuViewController.swift */,
+				7063372621E045080090798F /* HapticSettingsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		70B6597822418990009E0533 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				7063371B21E034E00090798F /* FallingObject.swift */,
+				706336E121E0346C0090798F /* Main.storyboard */,
+				706336E621E0346E0090798F /* LaunchScreen.storyboard */,
+				706336E921E0346E0090798F /* Info.plist */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706336D921E0346C0090798F /* HapticFeedBackKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7063370221E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboard" */;
+			buildPhases = (
+				706336D621E0346C0090798F /* Sources */,
+				706336D721E0346C0090798F /* Frameworks */,
+				706336D821E0346C0090798F /* Resources */,
+				7063371A21E034950090798F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7063371521E034950090798F /* PBXTargetDependency */,
+			);
+			name = HapticFeedBackKeyboard;
+			productName = HapticFeedBackKeyboard;
+			productReference = 706336DA21E0346C0090798F /* HapticFeedBackKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		706336ED21E0346E0090798F /* HapticFeedBackKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7063370521E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboardTests" */;
+			buildPhases = (
+				706336EA21E0346E0090798F /* Sources */,
+				706336EB21E0346E0090798F /* Frameworks */,
+				706336EC21E0346E0090798F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706336F021E0346E0090798F /* PBXTargetDependency */,
+			);
+			name = HapticFeedBackKeyboardTests;
+			productName = HapticFeedBackKeyboardTests;
+			productReference = 706336EE21E0346E0090798F /* HapticFeedBackKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		706336F821E0346E0090798F /* HapticFeedBackKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7063370821E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboardUITests" */;
+			buildPhases = (
+				706336F521E0346E0090798F /* Sources */,
+				706336F621E0346E0090798F /* Frameworks */,
+				706336F721E0346E0090798F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706336FB21E0346E0090798F /* PBXTargetDependency */,
+			);
+			name = HapticFeedBackKeyboardUITests;
+			productName = HapticFeedBackKeyboardUITests;
+			productReference = 706336F921E0346E0090798F /* HapticFeedBackKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7063370E21E034950090798F /* Haptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7063371721E034950090798F /* Build configuration list for PBXNativeTarget "Haptic" */;
+			buildPhases = (
+				7063370B21E034950090798F /* Sources */,
+				7063370C21E034950090798F /* Frameworks */,
+				7063370D21E034950090798F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Haptic;
+			productName = Haptic;
+			productReference = 7063370F21E034950090798F /* Haptic.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706336D221E0346C0090798F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = joemanto;
+				TargetAttributes = {
+					706336D921E0346C0090798F = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					706336ED21E0346E0090798F = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1110;
+						TestTargetID = 706336D921E0346C0090798F;
+					};
+					706336F821E0346E0090798F = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1110;
+						TestTargetID = 706336D921E0346C0090798F;
+					};
+					7063370E21E034950090798F = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 706336D521E0346C0090798F /* Build configuration list for PBXProject "HapticFeedBackKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706336D121E0346C0090798F;
+			productRefGroup = 706336DB21E0346C0090798F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706336D921E0346C0090798F /* HapticFeedBackKeyboard */,
+				706336ED21E0346E0090798F /* HapticFeedBackKeyboardTests */,
+				706336F821E0346E0090798F /* HapticFeedBackKeyboardUITests */,
+				7063370E21E034950090798F /* Haptic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706336D821E0346C0090798F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706336E821E0346E0090798F /* LaunchScreen.storyboard in Resources */,
+				70B30AEA21F9262F00C15226 /* bigData.txt in Resources */,
+				706336E521E0346E0090798F /* Assets.xcassets in Resources */,
+				706336E321E0346C0090798F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336EC21E0346E0090798F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336F721E0346E0090798F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7063370D21E034950090798F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7063371D21E0356E0090798F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706336D621E0346C0090798F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7063371C21E034E00090798F /* FallingObject.swift in Sources */,
+				706336E021E0346C0090798F /* ViewController.swift in Sources */,
+				7010273E2211142400907905 /* OptionsMenuViewController.swift in Sources */,
+				7063372721E045080090798F /* HapticSettingsViewController.swift in Sources */,
+				706336DE21E0346C0090798F /* AppDelegate.swift in Sources */,
+				7010273C221112D600907905 /* ThemesViewController.swift in Sources */,
+				70F9D72C222DA74900BCCE77 /* ControlCenterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336EA21E0346E0090798F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706336F321E0346E0090798F /* HapticFeedBackKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706336F521E0346E0090798F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706336FE21E0346E0090798F /* HapticFeedBackKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7063370B21E034950090798F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7063372121E035C60090798F /* KeyButton.swift in Sources */,
+				703ABEDC21F043B20039AF52 /* WordSuggestions.swift in Sources */,
+				7063371F21E035A60090798F /* KeyBoard.swift in Sources */,
+				7063372321E035E50090798F /* GloabalColors.swift in Sources */,
+				7063372521E0360F0090798F /* popUpKeyView.swift in Sources */,
+				7063371221E034950090798F /* KeyboardViewController.swift in Sources */,
+				709853E4222B4E760086D311 /* TypingStats.swift in Sources */,
+				701CD84522A1E0AD002CEDD4 /* AutoCorrect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		706336F021E0346E0090798F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706336D921E0346C0090798F /* HapticFeedBackKeyboard */;
+			targetProxy = 706336EF21E0346E0090798F /* PBXContainerItemProxy */;
+		};
+		706336FB21E0346E0090798F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706336D921E0346C0090798F /* HapticFeedBackKeyboard */;
+			targetProxy = 706336FA21E0346E0090798F /* PBXContainerItemProxy */;
+		};
+		7063371521E034950090798F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7063370E21E034950090798F /* Haptic */;
+			targetProxy = 7063371421E034950090798F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		706336E121E0346C0090798F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706336E221E0346C0090798F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		706336E621E0346E0090798F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706336E721E0346E0090798F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7063370021E0346E0090798F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7063370121E0346E0090798F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7063370321E0346E0090798F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HapticFeedBackKeyboard/HapticFeedBackKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = "$(SRCROOT)/HapticFeedBackKeyboard/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7063370421E0346E0090798F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HapticFeedBackKeyboard/HapticFeedBackKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = "$(SRCROOT)/HapticFeedBackKeyboard/other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7063370621E0346E0090798F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = HapticFeedBackKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticFeedBackKeyboard.app/HapticFeedBackKeyboard";
+			};
+			name = Debug;
+		};
+		7063370721E0346E0090798F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = HapticFeedBackKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticFeedBackKeyboard.app/HapticFeedBackKeyboard";
+			};
+			name = Release;
+		};
+		7063370921E0346E0090798F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = HapticFeedBackKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticFeedBackKeyboard;
+			};
+			name = Debug;
+		};
+		7063370A21E0346E0090798F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = HapticFeedBackKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticFeedBackKeyboard;
+			};
+			name = Release;
+		};
+		7063371821E034950090798F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Haptic/Haptic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = Haptic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboard.Haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7063371921E034950090798F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Haptic/Haptic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VRURLA883;
+				INFOPLIST_FILE = Haptic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joemanto.HapticFeedBackKeyboard.Haptic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706336D521E0346C0090798F /* Build configuration list for PBXProject "HapticFeedBackKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063370021E0346E0090798F /* Debug */,
+				7063370121E0346E0090798F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7063370221E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063370321E0346E0090798F /* Debug */,
+				7063370421E0346E0090798F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7063370521E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063370621E0346E0090798F /* Debug */,
+				7063370721E0346E0090798F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7063370821E0346E0090798F /* Build configuration list for PBXNativeTarget "HapticFeedBackKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063370921E0346E0090798F /* Debug */,
+				7063370A21E0346E0090798F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7063371721E034950090798F /* Build configuration list for PBXNativeTarget "Haptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063371821E034950090798F /* Debug */,
+				7063371921E034950090798F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706336D221E0346C0090798F /* Project object */;
+}
