@@ -1,4 +1,4 @@
-### Haptic Feedback Keyboard
+### Haptic Feedback Keyboard / Modern Typewriter
 
 A keyboard extension that provides the default keyboard experience while providing a small vibration for each key press.
 
